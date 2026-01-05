@@ -1,28 +1,28 @@
 +--- INTRO ---+
 welcome to cobalt, a version of asssembly made by my in an attempt to challenge myself. i have no idea if there's any real use case for this, but if there is then
-have at it!
+have at it!  
 
 +--- SYNTAX ---+
-This section details the many, many operands cobalt operates on.
+This section details the many, many operands cobalt operates on.  
 
 +--- arithmetic ---+
-add [register], [value] - adds the value to the register. the register must be stored in the integer division of memory.
-sub [register], [value] - subtracts the value from the register. the register must be stored in the integer division of memory.
-mul [register], [value] - multiplies the value by the register. the register must be stored in the integer division of memory.
-div [register], [value] - divides the register by the value. the register must be stored in the integer division of memory.
-mod [register], [value] - divides the register by the value and stores the remainder in the register.
-mov [reg1], [reg2] - makes reg2 equal to reg1. both registers must be in the integer division of memory.
-adt [reg1], [reg2] - adds the value of reg2 to reg1.
-sut [reg1], [reg2] - subtracts the value of reg2 from reg1.
-mut [reg1], [reg2] - multiplies reg1 by reg2.
-dit [reg1], [reg2] - divides reg1 by reg2.
-mot [reg1], [reg2] - gets the remainder of reg1 divided by reg2.
-inc [reg] - increments the value of reg by 1.
-dec [reg] - decrements the value of reg by 1.
-shl [reg1], [dest] - shifts reg1 one bit to the left and stores the result in dest.
-shr [reg1], [dest] - shifts reg1 one bit to the right and stores the result in dest.
-rhl [reg] - shifts reg one bit to the left and stores the result in reg.
-rhr [reg] - shifts reg one bit to the right and stores the result in reg.
+add [register], [value] - adds the value to the register. the register must be stored in the integer division of memory.  
+sub [register], [value] - subtracts the value from the register. the register must be stored in the integer division of memory.  
+mul [register], [value] - multiplies the value by the register. the register must be stored in the integer division of memory.  
+div [register], [value] - divides the register by the value. the register must be stored in the integer division of memory.  
+mod [register], [value] - divides the register by the value and stores the remainder in the register.  
+mov [reg1], [reg2] - makes reg2 equal to reg1. both registers must be in the integer division of memory.  
+adt [reg1], [reg2] - adds the value of reg2 to reg1.  
+sut [reg1], [reg2] - subtracts the value of reg2 from reg1.  
+mut [reg1], [reg2] - multiplies reg1 by reg2.  
+dit [reg1], [reg2] - divides reg1 by reg2.  
+mot [reg1], [reg2] - gets the remainder of reg1 divided by reg2.  
+inc [reg] - increments the value of reg by 1.  
+dec [reg] - decrements the value of reg by 1.  
+shl [reg1], [dest] - shifts reg1 one bit to the left and stores the result in dest.  
+shr [reg1], [dest] - shifts reg1 one bit to the right and stores the result in dest.  
+rhl [reg] - shifts reg one bit to the left and stores the result in reg.  
+rhr [reg] - shifts reg one bit to the right and stores the result in reg.  
 
 +--- logic ---+
 xor [reg1], [reg2], [dest] - does an xor bitwise operation with reg1 and reg2, then stores the resulting value in dest.
